@@ -1,0 +1,48 @@
+.nav__bar {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    background-color: rgb(9, 0, 0);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+li {
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;    
+    border-right: 1px solid white;
+}
+
+
+.icon a {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: black;
+}
+
+.menu__superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo img {
+    width: 150px;
+}

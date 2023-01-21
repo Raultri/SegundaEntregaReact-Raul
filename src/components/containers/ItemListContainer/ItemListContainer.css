@@ -1,0 +1,41 @@
+.saludo__inicial {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.cards__container{
+    border: 1px solid red;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card{
+    width: 30%;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgba(139, 69, 19, 0.258);
+  margin: 5px;
+}
+
+.card img {
+    width: 50%;
+}
+
+.card button{
+    padding: 5px;
+    margin: 4px;
+}
+
+
+
+
+
+/* -------- */

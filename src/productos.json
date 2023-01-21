@@ -1,0 +1,57 @@
+[
+    {
+        "categoria": "Ciclismo",
+        "id": 1,
+        "nombre": "Bicicleta Montaña",
+        "precio": 2000,
+        "stock": 9,
+        "descripcion": "articulo 1",
+        "img": "http://localhost:5173/src/imagenes/bicicleta-ciclismo.jpg"
+    },
+    {
+        "categoria": "Natación",
+        "id": 2,
+        "nombre": "Gorro",
+        "precio": 2000,
+        "stock": 9,
+        "descripcion": "articulo 2",
+        "img": "http://localhost:5173/src/imagenes/gorro-natacion.jpg"
+    },
+    {
+        "categoria": "Electrónica",
+        "id": 3,
+        "nombre": "Reloj",
+        "precio": 2000,
+        "stock": 9,
+        "descripcion": "articulo 3",
+        "img": "http://localhost:5173/src/imagenes/reloj-electronica.jpg"
+    },
+    {
+        "categoria": "Running",
+        "id": 4,
+        "nombre": "Runners Shoes",
+        "precio": 5000,
+        "stock": 10,
+        "descripcion": "Producto 4",
+        "img": "http://localhost:5173/src/imagenes/calzado-running.jpg"
+    },
+    {
+        "categoria": "Natación",
+        "id": 6,
+        "nombre": "Lentes",
+        "precio": 5000,
+        "stock": 10,
+        "descripcion": "Producto 4",
+        "img": "http://localhost:5173/src/imagenes/lentes-natacion.jpg"
+    },
+    {
+        "categoria": "Ciclismo",
+        "id": 7,
+        "nombre": "Bicicleta Carrera",
+        "precio": 4000,
+        "stock": 2,
+        "descripcion": "articulo 5",
+        "img": "http://localhost:5173/src/imagenes/bicicleta2-ciclismo.jpg"
+    }
+ 
+]

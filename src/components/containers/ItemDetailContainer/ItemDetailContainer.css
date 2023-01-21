@@ -1,0 +1,22 @@
+.card__detail{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imagen__container{
+    width: 60%;
+}
+
+.imagen__container img{
+    width: 50%;
+}
+
+.card__detail__body{
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 20px;
+}
+
