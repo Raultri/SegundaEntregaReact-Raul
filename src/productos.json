@@ -41,7 +41,7 @@
         "nombre": "Lentes",
         "precio": 5000,
         "stock": 10,
-        "descripcion": "Producto 4",
+        "descripcion": "Producto 5",
         "img": "http://localhost:5173/src/imagenes/lentes-natacion.jpg"
     },
     {
@@ -50,7 +50,7 @@
         "nombre": "Bicicleta Carrera",
         "precio": 4000,
         "stock": 2,
-        "descripcion": "articulo 5",
+        "descripcion": "articulo 6",
         "img": "http://localhost:5173/src/imagenes/bicicleta2-ciclismo.jpg"
     }
  
