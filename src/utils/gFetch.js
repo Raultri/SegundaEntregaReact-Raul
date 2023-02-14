@@ -1,10 +1,10 @@
-import productos from "../productos.json"
+// import productos from "../productos.json"
 
-export const gfetch = () => {
-    return new Promise((resolve, reject) => {
-            setTimeout(() => {
-            resolve(productos)
-        }, 1000)
-    })
+// export const gfetch = () => {
+//     return new Promise((resolve, reject) => {
+//             setTimeout(() => {
+//             resolve(productos)
+//         }, 1000)
+//     })
     
-}
+// }

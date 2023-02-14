@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { gfetch } from "../../../utils/gFetch";
 import { Link, useParams } from "react-router-dom";
+import { gItems, gItemsByCategory } from "../../../utils/fireBase.js";
 import "./ItemListContainer.css";
 
 
@@ -11,25 +11,14 @@ export const ItemListContainer = ({ saludo }) => {
     const [loading, setLoading] = useState(true);
     const { categoriaId } = useParams()
 
-
     useEffect(() => {
-        if (categoriaId) {
-            gfetch()
-                .then(respuestaPromesa => {
-                    setProductos(respuestaPromesa.filter(items => items.categoria === categoriaId))
-                })
-                .then(err => console.log(err))
-                .finally(() => setLoading(false))
-        } else {
-            gfetch()
-                .then(respuestaPromesa => {
-                    setProductos(respuestaPromesa)
-                })
-                .then(err => console.log(err))
-                .finally(() => setLoading(false))
-        }
+        (categoriaId ? gItemsByCategory(categoriaId) : gItems())
+            .then(respuestaPromesa => {
+                setProductos(respuestaPromesa)
+            })
+            .then(err => console.log(err))
+            .finally(() => setLoading(false))
     }, [categoriaId])
-
 
     return (
         <>
@@ -52,21 +41,16 @@ export const ItemListContainer = ({ saludo }) => {
                                 <img src={producto.img} alt="" />
                             </div>
                             <div className="card__footer">
-                
+
                                 <Link to={`/detail/${producto.id}`}>
                                     <button className="detalle">Ir al detalle</button>
                                 </Link>
-                                <Link to={`/carrito/${producto.id}`}>
-                                    <button className="comprar"> Agregar al carrito </button>
-                                </Link>
-                
+
+
                             </div>
                         </div>)
                 }
             </div>
-
-
-
         </>
     )
 }

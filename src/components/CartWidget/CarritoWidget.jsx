@@ -1,11 +1,20 @@
-export const CarritoWidget = () =>  {
+import { useCartContext } from "../../context/CartContext"
+export const CarritoWidget = () => {
+    const { cantidadTotal } = useCartContext();
     return (
-        <div className="icon">
+        <div style={
+            { background: "black" }
+        }>
 
-            <a href="">
-                <i className='bx bx-cart-alt'> CARRITO</i>
-            </a>
-            
+            <div>
+                <i className='bx bx-cart-alt'> CARRITO  {cantidadTotal() !== 0 && cantidadTotal()}</i>
+            </div>
         </div>
     )
 }
+
+
+
+
+
+
