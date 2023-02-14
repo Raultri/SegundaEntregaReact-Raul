@@ -32,6 +32,6 @@ Para almacenar los productos, crear ordenes y demas, este proyecto utiliza fireb
 
 ## Video
 
-GIF [Drive](---------------------)
+## GIF [Gif](http://g.recordit.co/w03hBhsTka.gif)
 
 
