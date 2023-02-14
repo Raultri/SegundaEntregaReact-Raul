@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyC-Jdl2IirRoAJlUNfH96A76lH1zviSyZE",
-    authDomain: "curso-react-92088.firebaseapp.com",
-    projectId: "curso-react-92088",
-    storageBucket: "curso-react-92088.appspot.com",
-    messagingSenderId: "990920217511",
-    appId: "1:990920217511:web:1ffe686de7384e6e0edc82"
+  apiKey: "AIzaSyAYSl-WIgMDpLzFVvIyfcfhtWEEogG3nKo",
+  authDomain: "planetatriatlon-37ab1.firebaseapp.com",
+  projectId: "planetatriatlon-37ab1",
+  storageBucket: "planetatriatlon-37ab1.appspot.com",
+  messagingSenderId: "450924513022",
+  appId: "1:450924513022:web:062f9b4b46409d07c1c7af"
 };
 
 // Initialize Firebase
