@@ -5,7 +5,7 @@ Planeta Triatlon es un e-commerce que se encarga de vender productos de traiatlo
 ## Instalación
 
 1. Clona el repositorio en tu equipo local utilizando el siguiente comando:
-   git clone https://github.com/Raultri/SegundaEntregaReact-Raul
+   git clone https://github.com/Raultri/UltimaEntregaReact-Raul
 2. Instala las dependencias requeridas utilizando npm:
    npm install
 3. Ejecuta la aplicación en tu equipo local:
